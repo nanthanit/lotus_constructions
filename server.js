@@ -21,7 +21,7 @@ app.use(cors())
 app.use(express.static(__dirname+'/measurement_insert/assets'))
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+'/measurement_insert/index.html')
+    res.sendFile(__dirname+'/index.html')
 })
 
 
